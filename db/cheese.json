@@ -1,5 +1,5 @@
 {
-    "cheese":[
+    "cheese":
         {
           "id":"cheese",
           "american": "$1.10",
@@ -8,5 +8,4 @@
           "pepper jack": "$1.50",
           "swiss": "$1.80"
         }
-    ]
 }

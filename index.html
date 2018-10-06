@@ -9,7 +9,60 @@
 </head>
 <body>
     <h1 class="main-heading">Sandwich Maker</h1>
-
+    <div id="sandwich-form">
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Bread :</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Wheat</option>
+              <option>White</option>
+              <option>Rye Bread</option>
+              <option>Bread of the Day</option>
+              <option>Seasame Bun</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Meat :</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>Turkey</option>
+              <option>Bacon</option>
+              <option>Ham</option>
+              <option>Roasted Beef</option>
+              <option>Pepperoni</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Cheese :</label>
+            <select  multiple class="form-control" id="exampleFormControlSelect2">
+              <option>American</option>
+              <option>Chedder</option>
+              <option>Provolone</option>
+              <option>Pepper Jack</option>
+              <option>Swiss</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Condiments :</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>Ketchup</option>
+              <option>Mustard</option>
+              <option>sriracha</option>
+              <option>vinegar</option>
+              <option>Olive oil</option>
+              <option>Pepper</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Veggies :</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>Lettuce</option>
+              <option>Onion</option>
+              <option>Cucumber</option>
+              <option>Tomato</option>
+              <option>Spinach</option>
+            </select>
+          </div>
+    </div>
+    <div id="order-review"></div>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -17,7 +70,7 @@
     <script src="./javascripts/components/ingredients.js" type="module"></script>
     <script src="./javascripts/data/veggiesData.js" type="module"></script>
     <script src="./javascripts/data/meatData.js" type="module"></script>
-    <script src="./javascripts/data/condiments.js" type="module"></script>
+    <script src="./javascripts/data/condimentsData.js" type="module"></script>
     <script src="./javascripts/data/cheeseData.js" type="module"></script>
     <script src="./javascripts/data/breadData.js" type="module"></script>
     <script src="./javascripts/helpers/util.js" type="module"></script>

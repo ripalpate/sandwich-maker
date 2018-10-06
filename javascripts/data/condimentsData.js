@@ -6,11 +6,11 @@ function executeThisCodeIfXhrFails () {
     console.log('error');
 }
 
-const getVeggies = () => {
+const getCondiments = () => {
     let myrequest = new XMLHttpRequest();
     myrequest.addEventListener('load', executeThisCodeAfterFileLoaded);
     myrequest.addEventListener('error', executeThisCodeIfXhrFails);
     myrequest.open('GET', './db/bread.json');
     myrequest.send();
 }
-export {getVeggies};
+export {getCondiments};

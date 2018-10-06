@@ -1,5 +1,5 @@
 {
-    "veggies": [
+    "veggies":
         {
           "id":"veggies",
           "lettuce": "$0.25",
@@ -8,5 +8,4 @@
           "tomato": "$1.00",
           "spinach": "$.80"
         }
-    ]
 }
