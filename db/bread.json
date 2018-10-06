@@ -1,5 +1,5 @@
 {
-    "bread":[
+    "bread":
         {
           "id":"bread",
           "wheat": "$1.00",
@@ -8,5 +8,4 @@
           "bread of the day": "$1.25",
           "seasame bun": "$.90"
         }
-    ]
 }
