@@ -1,0 +1,14 @@
+{
+    "condiment": [
+        {
+          "id":"condiment",
+          "ketchup": "$0.10",
+          "mustard": "$0.50",
+          "sriracha": "$0.75",
+          "vinegar": "$0.25",
+          "olive oil": "$0.80",
+          "relish": "$0.90",
+          "pepper":"$0.20"
+        }
+    ]
+}

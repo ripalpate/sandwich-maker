@@ -1,0 +1,12 @@
+{
+    "bread":[
+        {
+          "id":"bread",
+          "wheat": "$1.00",
+          "white": "$0.75",
+          "rye bread": "$1.10",
+          "bread of the day": "$1.25",
+          "seasame bun": "$.90"
+        }
+    ]
+}
