@@ -1,0 +1,12 @@
+{
+    "veggies": [
+        {
+          "id":"veggies",
+          "lettuce": "$0.25",
+          "onion": "$0.50",
+          "cucumber": "$0.75",
+          "tomato": "$1.00",
+          "spinach": "$.80"
+        }
+    ]
+}
