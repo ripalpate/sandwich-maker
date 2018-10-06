@@ -1,6 +1,8 @@
+import { sandwichBuilder, getBreadz } from "../components/ingredients";
+
 function executeThisCodeAfterFileLoaded () {
     const data = JSON.parse(this.responseText);
-    console.log(data);
+    sandwichBuilder(getBreadz());
 }
 function executeThisCodeIfXhrFails () {
     console.log('error');

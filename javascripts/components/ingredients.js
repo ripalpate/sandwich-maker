@@ -1,11 +1,11 @@
 import{printToDom} from "../helpers/util.js";
 import {getbread} from "../data/breadData.js";
 
-// const bread =[];
+const bread =[];
 
-// const getBreadz = () => {
-//     return bread ;
-// }
+const getBreadz = () => {
+    return bread ;
+}
 
 
 const sandwichBuilder = () => {
@@ -15,4 +15,4 @@ const sandwichBuilder = () => {
     
 }
 
-export{sandwichBuilder};
+export{sandwichBuilder, getBreadz};
