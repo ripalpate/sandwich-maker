@@ -12,28 +12,26 @@
     <div id="sandwich-form">
         <div class="form-group">
             <label for="exampleFormControlSelect1">Bread :</label>
-            <select class="form-control" id="bread-select">
-              <option selected="selected">Wheat</option>
-              <option>White</option>
-              <option>Rye Bread</option>
-              <option>Bread of the Day</option>
-              <option>Seasame Bun</option>
-            </select>
+              <input type="checkbox" name="bread" value="wheat" class="bread">Wheat
+              <input type="checkbox" name="bread" value="white" class="bread">White
+              <input type="checkbox" name="bread" value="rye" class="bread">Rye Bread
+              <input type="checkbox" name="bread" value="italian" class="bread" >Italian
+              <input type="checkbox" name="bread" value="bun" class="bread">Bun
+              <button id="breadButton">Add</button>
+            <!-- </select> -->
           </div>
           <div class="form-group">
             <label for="exampleFormControlSelect2">Meat :</label>
-            <select multiple class="form-control" id="meat-select">
-              <option>Turkey</option>
-              <option>Bacon</option>
-              <option>Ham</option>
-              <option>Roasted Beef</option>
-              <option>Pepperoni</option>
-            </select>
+              <input type="checkbox" name="meat" value="turkey" class="meat">Turkey
+              <input type="checkbox" name="meat" value="bacon" class="meat">Bacon
+              <input type="checkbox" name="meat" value="ham" class="meat">Ham
+              <input type="checkbox" name="meat" value="beef" class="meat">Roasted Beef
+              <input type="checkbox"name="meat" value="Pepperoni" class="meat">Pepperoni
+              <button id="meatButton">Add</button>
           </div>
           <div class="form-group">
             <label for="exampleFormControlSelect2">Cheese :</label>
-            <select  multiple class="form-control" id="cheese-select">
-              <option>American</option>
+              <input type="checkbox">American
               <option>Chedder</option>
               <option>Provolone</option>
               <option>Pepper Jack</option>

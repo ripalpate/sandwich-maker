@@ -13,4 +13,3 @@ const getCheese = () => {
     myrequest.open('GET', './db/cheese.json');
     myrequest.send();
 }
-export {getBread};

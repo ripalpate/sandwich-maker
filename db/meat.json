@@ -2,10 +2,10 @@
     "meat":
         {
           "id":"meat",
-          "turkey": "$0.90",
-          "bacon": "$1.50",
-          "ham": "$0.75",
-          "beef": "$1.25",
-          "pepperoni": "$.80"
+          "turkey": "2.00",
+          "bacon": "1.50",
+          "ham": "1.75",
+          "beef": "1.25",
+          "pepperoni": "1.80"
         }
 }

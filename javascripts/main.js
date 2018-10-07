@@ -1,6 +1,6 @@
-import{sandwichBuilder, getBreadz} from "../javascripts/components/ingredients.js";
+import { getBread } from "./data/breadData.js";
 
 const initializeApp = ()=> {
-    getBread();
+
 }
 initializeApp();

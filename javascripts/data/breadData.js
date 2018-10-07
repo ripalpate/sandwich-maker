@@ -1,9 +1,11 @@
-import { sandwichBuilder, getBreadz } from "../components/ingredients";
+import {setBread } from "../components/ingredients.js";
 
 function executeThisCodeAfterFileLoaded () {
     const data = JSON.parse(this.responseText);
-    sandwichBuilder(getBreadz());
+    setBread(data.bread);
+    // sandwichBuilder(getBreadz());
 }
+
 function executeThisCodeIfXhrFails () {
     console.log('error');
 }

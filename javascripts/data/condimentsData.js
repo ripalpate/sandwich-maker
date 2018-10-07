@@ -13,4 +13,4 @@ const getCondiments = () => {
     myrequest.open('GET', './db/bread.json');
     myrequest.send();
 }
-export {getCondiments};
+// export {getCondiments};
