@@ -6,6 +6,7 @@
           "bacon": "1.50",
           "ham": "1.75",
           "beef": "1.25",
-          "pepperoni": "1.80"
+          "pepperoni": "1.80",
+          "nomeat":"0.00"
         }
 }
