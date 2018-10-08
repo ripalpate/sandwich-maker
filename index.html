@@ -12,57 +12,69 @@
     <div id="sandwich-form">
         <div class="form-group">
             <label for="exampleFormControlSelect1">Bread :</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>Wheat</option>
-              <option>White</option>
-              <option>Rye Bread</option>
-              <option>Bread of the Day</option>
-              <option>Seasame Bun</option>
-            </select>
+            <div>
+              <input type="checkbox" name="bread" value="wheat" class="bread">Wheat
+              <input type="checkbox" name="bread" value="white" class="bread">White
+              <input type="checkbox" name="bread" value="rye" class="bread">Rye Bread
+              <input type="checkbox" name="bread" value="italian" class="bread" >Italian
+              <input type="checkbox" name="bread" value="bun" class="bread">Bun
+              <button id="breadButton">Add To Sandwich</button>
+            </div>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlSelect2">Meat :</label>
-            <select multiple class="form-control" id="exampleFormControlSelect2">
-              <option>Turkey</option>
-              <option>Bacon</option>
-              <option>Ham</option>
-              <option>Roasted Beef</option>
-              <option>Pepperoni</option>
-            </select>
+            <label for="exampleFormControlSelect2"> Select your Meat :</label>
+            <div>
+              <input type="checkbox" name="meat" value="turkey" class="meat">Turkey
+              <input type="checkbox" name="meat" value="bacon" class="meat">Bacon
+              <input type="checkbox" name="meat" value="ham" class="meat">Ham
+              <input type="checkbox" name="meat" value="beef" class="meat">Roasted Beef
+              <input type="checkbox"name="meat" value="pepperoni" class="meat">Pepperoni
+              <input type="checkbox"name="meat" value="nomeat" class="meat">No Meat
+              <button id="meatButton">Add To Sandwich</button>
+            </div>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlSelect2">Cheese :</label>
-            <select  multiple class="form-control" id="exampleFormControlSelect2">
-              <option>American</option>
-              <option>Chedder</option>
-              <option>Provolone</option>
-              <option>Pepper Jack</option>
-              <option>Swiss</option>
-            </select>
+            <label>Select your Cheese :</label>
+            <div>
+              <input type="checkbox"name="cheese" value="american" class="cheese">American
+              <input type="checkbox"name="cheese" value="chedder" class="cheese">Chedder
+              <input type="checkbox"name="cheese" value="provolone" class="cheese">Provolone
+              <input type="checkbox"name="cheese" value="pepperjack" class="cheese">Pepper Jack
+              <input type="checkbox"name="cheese" value="swiss" class="cheese">Swiss
+              <input type="checkbox"name="cheese" value="nocheese" class="cheese"> No Cheese
+              <button id="cheeseButton">Add To Sandwich</button>
+            </div>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlSelect2">Condiments :</label>
-            <select multiple class="form-control" id="exampleFormControlSelect2">
-              <option>Ketchup</option>
-              <option>Mustard</option>
-              <option>sriracha</option>
-              <option>vinegar</option>
-              <option>Olive oil</option>
-              <option>Pepper</option>
-            </select>
+            <label> Select your Condiments :</label>
+            <div>
+              <input type="checkbox"name="condiments" value="ketchup" class="condiments">Ketchup
+              <input type="checkbox"name="condiments" value="mustard" class="condiments">Mustard
+              <input type="checkbox"name="condiments" value="sriracha" class="condiments">sriracha
+              <input type="checkbox"name="condiments" value="vinegar" class="condiments">vinegar
+              <input type="checkbox"name="condiments" value="oliveoil" class="condiments">Olive Oil
+              <input type="checkbox"name="condiments" value="pepper" class="condiments">Pepper
+              <button id="condimentsButton">Add To Sandwich</button>
+            </div>
           </div>
           <div class="form-group">
             <label for="exampleFormControlSelect2">Veggies :</label>
-            <select multiple class="form-control" id="exampleFormControlSelect2">
-              <option>Lettuce</option>
-              <option>Onion</option>
-              <option>Cucumber</option>
-              <option>Tomato</option>
-              <option>Spinach</option>
-            </select>
+            <div>
+              <input type="checkbox"name="veggies" value="lettuce" class="veggies">Lettuce
+              <input type="checkbox"name="veggies" value="onion" class="veggies">Onion
+              <input type="checkbox"name="veggies" value="cucumber" class="veggies">Cucumber
+              <input type="checkbox"name="veggies" value="tomato" class="veggies">Tomato
+              <input type="checkbox"name="veggies" value="spinach" class="veggies">Spinach
+              <input type="checkbox"name="veggies" value="noveggies" class="veggies">No Veggies
+              <button id="veggiesButton">Add To Sandwich</button>
+            </div>
           </div>
     </div>
-    <div id="order-review"></div>
+    <div>
+      <h5>Order Review:</h5>
+      <div id="ingredient-type"></div>
+      <div id="order-review"></div>
+  </div>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

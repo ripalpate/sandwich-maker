@@ -1,6 +1,8 @@
+import {setCheese} from "../components/cheese.js";
+
 function executeThisCodeAfterFileLoaded () {
     const data = JSON.parse(this.responseText);
-    console.log(data);
+    setCheese(data.cheese);
 }
 function executeThisCodeIfXhrFails () {
     console.log('error');
@@ -13,4 +15,4 @@ const getCheese = () => {
     myrequest.open('GET', './db/cheese.json');
     myrequest.send();
 }
-export {getBread};
+export{getCheese};
