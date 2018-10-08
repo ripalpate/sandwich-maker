@@ -1,4 +1,4 @@
-import { setCondiments } from "../components/ingredients.js";
+import { setCondiments } from "../components/condiments.js";
 
 function executeThisCodeAfterFileLoaded () {
     const data = JSON.parse(this.responseText);

@@ -4,4 +4,8 @@
      selectedDiv.innerHTML = stringToPrint;
 
  }
- export {printToDom};
+
+ const writeToDom = (stringToPrint) => {
+     document.getElementById('ingredient-type').innerHTML += stringToPrint + "<br>";
+ }
+ export {printToDom, writeToDom};

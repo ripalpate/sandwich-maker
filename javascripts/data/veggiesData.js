@@ -1,4 +1,4 @@
-import { setVeggies} from "../components/ingredients.js";
+import { setVeggies} from "../components/veggies.js";
 
 function executeThisCodeAfterFileLoaded () {
     const data = JSON.parse(this.responseText);

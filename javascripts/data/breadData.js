@@ -1,4 +1,4 @@
-import {setBread } from "../components/ingredients.js";
+import {setBread} from "../components/bread.js";
 
 function executeThisCodeAfterFileLoaded () {
     const data = JSON.parse(this.responseText);

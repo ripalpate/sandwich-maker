@@ -1,4 +1,4 @@
-import { setCheese } from "../components/ingredients.js";
+import {setCheese} from "../components/cheese.js";
 
 function executeThisCodeAfterFileLoaded () {
     const data = JSON.parse(this.responseText);
