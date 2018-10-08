@@ -11,18 +11,18 @@
     <h1 class="main-heading">Sandwich Maker</h1>
     <div id="sandwich-form">
         <div class="form-group">
-            <label for="exampleFormControlSelect1">Bread :</label>
-            <div>
-              <input type="checkbox" name="bread" value="wheat" class="bread">Wheat
-              <input type="checkbox" name="bread" value="white" class="bread">White
-              <input type="checkbox" name="bread" value="rye" class="bread">Rye Bread
-              <input type="checkbox" name="bread" value="italian" class="bread" >Italian
-              <input type="checkbox" name="bread" value="bun" class="bread">Bun
+            <h4>Select Your Bread :</h4>
+            <div class="checkbox">
+              <label><input type="checkbox" name="bread" value="wheat" class="bread">Wheat</label></div>
+              <label><input type="checkbox" name="bread" value="white" class="bread">White</label>
+              <label><input type="checkbox" name="bread" value="rye" class="bread">Rye Bread</label>
+              <label><input type="checkbox" name="bread" value="italian" class="bread" >Italian</label>
+              <label><input type="checkbox" name="bread" value="bun" class="bread">Bun</label>
               <button id="breadButton">Add To Sandwich</button>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlSelect2"> Select your Meat :</label>
+            
+        </div>
+        <div class="form-group">
+            <h4> Select your Meat :</h4>
             <div>
               <input type="checkbox" name="meat" value="turkey" class="meat">Turkey
               <input type="checkbox" name="meat" value="bacon" class="meat">Bacon
@@ -32,9 +32,9 @@
               <input type="checkbox"name="meat" value="nomeat" class="meat">No Meat
               <button id="meatButton">Add To Sandwich</button>
             </div>
-          </div>
-          <div class="form-group">
-            <label>Select your Cheese :</label>
+        </div>
+        <div class="form-group">
+            <h4>Select your Cheese :</h4>
             <div>
               <input type="checkbox"name="cheese" value="american" class="cheese">American
               <input type="checkbox"name="cheese" value="chedder" class="cheese">Chedder
@@ -44,9 +44,9 @@
               <input type="checkbox"name="cheese" value="nocheese" class="cheese"> No Cheese
               <button id="cheeseButton">Add To Sandwich</button>
             </div>
-          </div>
-          <div class="form-group">
-            <label> Select your Condiments :</label>
+        </div>
+        <div class="form-group">
+            <h4> Select your Condiments :</h4>
             <div>
               <input type="checkbox"name="condiments" value="ketchup" class="condiments">Ketchup
               <input type="checkbox"name="condiments" value="mustard" class="condiments">Mustard
@@ -56,9 +56,9 @@
               <input type="checkbox"name="condiments" value="pepper" class="condiments">Pepper
               <button id="condimentsButton">Add To Sandwich</button>
             </div>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlSelect2">Veggies :</label>
+        </div>
+        <div class="form-group">
+            <h4>Veggies :</h4>
             <div>
               <input type="checkbox"name="veggies" value="lettuce" class="veggies">Lettuce
               <input type="checkbox"name="veggies" value="onion" class="veggies">Onion
@@ -68,8 +68,9 @@
               <input type="checkbox"name="veggies" value="noveggies" class="veggies">No Veggies
               <button id="veggiesButton">Add To Sandwich</button>
             </div>
-          </div>
+        </div>
     </div>
+
     <div>
       <h5>Order Review:</h5>
       <div id="ingredient-type"></div>
