@@ -1,3 +1,26 @@
 body {
     background-color: coral;
 }
+.main-heading{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-family: 'Acme', sans-serif;
+}
+
+#sandwich-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.review{
+    background-color: aquamarine;
+    width: 30%;
+    margin:0 auto;
+}
+.order-heading{
+    font-family: 'Acme', sans-serif;
+}

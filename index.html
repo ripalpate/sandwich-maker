@@ -4,13 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sandwich Maker</title>
+    <link href="https://fonts.googleapis.com/css?family=Acme|Shadows+Into+Light" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1 class="main-heading">Sandwich Maker</h1>
+    <div class="main-heading">
+        <h1>Sandwich Maker</h1>
+    </div>
     <div id="sandwich-form">
-        <div class="card m-2 p-2" style="width: 18rem;">
+        <div class="card p-2" style="width: 18rem;">
             <h4>Select Your Bread</h4>
             <div class="">
               <label class="d-block"><input type="checkbox" name="bread" value="wheat" class="bread">Wheat</label>
@@ -18,10 +21,10 @@
               <label class="d-block"><input type="checkbox" name="bread" value="rye" class="bread">Rye Bread</label>
               <label class="d-block"><input type="checkbox" name="bread" value="italian" class="bread" >Italian</label>
               <label><input type="checkbox" name="bread" value="bun" class="bread">Bun</label>
-              <button id="breadButton" class="d-block">Add To Sandwich</button>
+              <button id="breadButton" class="d-block btn btn-info">Add To Sandwich</button>
             </div>
         </div>
-        <div class="card m-2 p-2" style="width: 18rem;">
+        <div class="card p-2" style="width: 18rem;">
             <h4> Select your Meat</h4>
             <div>
               <label class="d-block"><input type="checkbox" name="meat" value="turkey" class="meat">Turkey</label>
@@ -30,10 +33,10 @@
               <label class="d-block"><input type="checkbox" name="meat" value="beef" class="meat">Roasted Beef</label>
               <label class="d-block"><input type="checkbox"name="meat" value="pepperoni" class="meat">Pepperoni</label>
               <label class="d-block"><input type="checkbox"name="meat" value="nomeat" class="meat">No Meat</label>
-              <button class="d-block" id="meatButton">Add To Sandwich</button>
+              <button class="d-block btn btn-info" id="meatButton">Add To Sandwich</button>
             </div>
         </div>
-        <div class="card m-2 p-2" style="width: 18rem;">
+        <div class="card p-2" style="width: 18rem;">
             <h4>Select your Cheese</h4>
             <div>
               <label class="d-block"><input type="checkbox"name="cheese" value="american" class="cheese">American</label>
@@ -42,10 +45,10 @@
               <label class="d-block"><input type="checkbox"name="cheese" value="pepperjack" class="cheese">Pepper Jack</label>
               <label class="d-block"><input type="checkbox"name="cheese" value="swiss" class="cheese">Swiss</label>
               <label class="d-block"><input type="checkbox"name="cheese" value="nocheese" class="cheese"> No Cheese</label>
-              <button class="d-block" id="cheeseButton">Add To Sandwich</button>
+              <button class="d-block btn btn-info" id="cheeseButton">Add To Sandwich</button>
             </div>
         </div>
-        <div class="card m-2 p-2" style="width: 18rem;">
+        <div class="card p-2" style="width: 18rem;">
             <h4> Select your Condiments</h4>
             <div>
               <label class="d-block"><input type="checkbox"name="condiments" value="ketchup" class="condiments">Ketchup</label>
@@ -54,10 +57,10 @@
               <label class="d-block"><input type="checkbox"name="condiments" value="vinegar" class="condiments">vinegar</label>
               <label class="d-block"><input type="checkbox"name="condiments" value="oliveoil" class="condiments">Olive Oil</label>
               <label class="d-block"><input type="checkbox"name="condiments" value="pepper" class="condiments">Pepper</label>
-              <button class="d-block" id="condimentsButton">Add To Sandwich</button>
+              <button class="d-block btn btn-info" id="condimentsButton">Add To Sandwich</button>
             </div>
         </div>
-        <div class="card m-2 p-2" style="width: 18rem;">
+        <div class="card p-2" style="width: 18rem;">
             <h4>Veggies</h4>
             <div>
               <label class="d-block"><input type="checkbox"name="veggies" value="lettuce" class="veggies">Lettuce</label>
@@ -66,13 +69,13 @@
               <label class="d-block"><input type="checkbox"name="veggies" value="tomato" class="veggies">Tomato</label>
               <label class="d-block"><input type="checkbox"name="veggies" value="spinach" class="veggies">Spinach</label>
               <label class="d-block"><input type="checkbox"name="veggies" value="noveggies" class="veggies">No Veggies</label>
-              <button class="d-block" id="veggiesButton">Add To Sandwich</button>
+              <button class="d-block btn btn-info" id="veggiesButton">Add To Sandwich</button>
             </div>
         </div>
     </div>
 
-    <div>
-      <h5>Order Review:</h5>
+    <div class="text-center review">
+      <h5 class="order-heading">Order Review:</h5>
       <div id="ingredient-type"></div>
       <div id="order-review"></div>
   </div>
